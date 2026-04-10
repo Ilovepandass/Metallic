@@ -1,3 +1,11 @@
+import fs from "fs";
+
+const cachePath =
+  "./node_modules/@rubynetwork/rh/cache-js";
+
+if (!fs.existsSync(cachePath)) {
+  fs.mkdirSync(cachePath, { recursive: true });
+}
 import { defineConfig } from "vite";
 import preact from "@preact/preset-vite";
 import { ChemicalVitePlugin } from "chemicaljs";
