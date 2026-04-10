@@ -1,0 +1,1 @@
+{\n  "compilerOptions": {\n    "target": "ES2020",\n    "module": "ESNext",\n    "lib": [\n      "DOM",\n      "ES2020"\n    ],\n    "strict": true,\n    "esModuleInterop": true,\n    "moduleResolution": "Node",\n    "outDir": "./dist",\n    "types": [\n      "@cloudflare/workers-types"\n    ]\n  },\n  "include": [\n    "worker/**/*"\n  ]\n}
