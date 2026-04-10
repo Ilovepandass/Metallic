@@ -1,0 +1,1 @@
+name = "metallic-worker"\nmain = "worker/index.ts"\ncompatibility_date = "2024-04-01"\ntype = "service"\n\naccount_id = "YOUR_ACCOUNT_ID_HERE"\n\n[env.production]\nname = "metallic-worker-prod"\n\n[build]\ncommand = "tsc --project tsconfig.worker.json"\ncwd = "."
